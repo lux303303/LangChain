@@ -1,7 +1,7 @@
 name: pytest
 run-name: Run pytest By @${{ github.actor }}
 on:
-  push:
+  pull_request:
 
 jobs:
   pytest:
