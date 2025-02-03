@@ -1,3 +1,9 @@
 .idea
 
 .env
+
+.coverage
+
+# Pythonキャッシュフォルダを無視
+__pycache__/
+*.py[cod]
